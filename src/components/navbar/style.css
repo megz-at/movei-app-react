@@ -1,0 +1,19 @@
+.nav-link {
+    transition: background-color 0.2s ease;
+
+  }
+  
+  .nav-link:hover {
+    background-color: #f31f1846; 
+    border-radius: 20px;
+    padding: 10px;
+    color: #fff;
+  }
+  i{
+    color: white;
+    transition: all 1s;
+  }
+nav{
+  background-color: rgb(12, 12, 19);
+ 
+}

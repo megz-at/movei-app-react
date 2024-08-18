@@ -1,0 +1,24 @@
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+    sans-serif;,font-size: 20px;
+}
+footer{
+  background-color: rgb(12, 12, 19);
+ 
+}
+.mong{
+  width: 100%; /* or a specific width like 1200px */
+  max-width: 1200px; /* adjust as necessary */
+  margin: 0 auto;
+  padding: 0 15px; /* add padding to the sides if needed */
+}
+.bong {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px; /* counteracts the column padding */
+}
+.bl7{
+  flex: 0 0 33.3333%; /* 4/12 = 33.3333% */
+  max-width: 33.3333%; /* same as flex basis */
+  padding: 0 15px; /* padding to align with the row */
+}
